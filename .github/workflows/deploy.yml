@@ -22,7 +22,7 @@ jobs:
       - name: Terraform Init
         id: init
         run: terraform init
-        working-directory: ./Terraform-VPC
+        working-directory: E:/Company Work/Book Store/vpc_with_git/vpc-terraform-github-actions/terraform-vpc
       - name: Terraform Validate
         id: validate
         run: terraform validate
